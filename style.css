@@ -1,0 +1,46 @@
+/* 
+---01 TYPOGRAPHY SYSTEM
+- FONT SIZES (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 
+    / 24 / 32 / 48 / 64 / 80 / 96 / 128*/
+
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+:root {
+
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--white: hsl(0,0,100%);  
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  hsl(225, 100%, 94%);
+}
+
+.main-container {
+   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-container {
+    background-color: hsl(0,0,100%);
+    margin-top: 100px;
+    width: 330px;
+    padding: 15px;
+    height: 100px; 
+}
+
+.card-container .img {
+    width: 100%;
+}
