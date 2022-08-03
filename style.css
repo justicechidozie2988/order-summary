@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color:  hsl(225, 100%, 94%);
+    background-color: var(--pale-blue);
 }
 
 .main-wrapper {
@@ -51,6 +51,10 @@ img {
   text-align: center;
 }
 
+.content {
+  padding: 32px;
+}
+
 .para {
   color: lightgrey;
   font-size: 15px;
@@ -63,7 +67,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     margin: 20px;
-    background-color: hsl(225, 100%, 94%);
+    background-color: var(--pale-blue);
     border-radius: 10px;
 }
 
@@ -84,13 +88,13 @@ span {
 .pro-btn {
   font-family: "Red Hat Display"; 
   font-size: 12px;
-  background: hsl(245, 75%, 52%);
+  background: var(--bright-blue);
   border-radius: 10px;
-  box-shadow: 0 10px 20px #c4d0f6;
+  box-shadow: 0 30px 20px #c4d0f6;
   color: #FFFFFF;
   padding: 10px 10px 10px;
-   margin: 15px 15px 15px;
-  width: 90%;
+  margin: 2px 30px 20px;
+  width: 100%;
   cursor: pointer;
 }
 
