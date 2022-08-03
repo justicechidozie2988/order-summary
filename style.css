@@ -6,13 +6,17 @@
       2 / 4 / 8 / 12 / 16 
     / 24 / 32 / 48 / 64 / 80 / 96 / 128*/
 
-      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
-:root {
+    @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 
---Pale-blue: hsl(225, 100%, 94%);
---Bright-blue: hsl(245, 75%, 52%);
---white: hsl(0,0,100%);  
-}
+      :root {
+        --pry-pale-blue: hsl(225, 100%, 94%);
+        --pry-bright-blue: hsl(245, 75%, 52%);
+        --very-pale-blue: hsl(225, 100%, 98%);
+        --desaturated-blue: hsl(224, 23%, 55%);
+        --dark-blue: hsl(223, 47%, 23%);
+          font-family: "Red Hat Display", sans-serif;
+          font-size: 16px;
+      }
 
 * {
     padding: 0;
@@ -24,23 +28,78 @@ body {
     background-color:  hsl(225, 100%, 94%);
 }
 
-.main-container {
-   
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    width: 100%;
+.main-wrapper {
+  display: flex;
+  margin: auto;
+  margin-top: 60px;
+  max-width: 350px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  
 }
 
-.card-container {
-    background-color: hsl(0,0,100%);
-    margin-top: 100px;
-    width: 330px;
-    padding: 15px;
-    height: 100px; 
+img {
+  width: 100%;
 }
 
-.card-container .img {
-    width: 100%;
+.header {
+  font-family: Red Hat Display;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.para {
+  color: lightgrey;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin: 20px;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+span {
+  margin: 10px;
+}
+
+.link {
+  padding-top: 20px;
+}
+
+.pro-btn {
+  font-family: "Red Hat Display"; 
+  font-size: 12px;
+  background: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: 0 30px 20px #c4d0f6;
+  color: #FFFFFF;
+  padding: 10px 10px 10px;
+  margin: 2px 30px 20px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  font-family: "Red Hat Display";
+  font-size: 12px;
+  background: none;
+  border: none;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 30px;
 }
