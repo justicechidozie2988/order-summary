@@ -32,7 +32,7 @@ body {
   display: flex;
   margin: auto;
   margin-top: 60px;
-  max-width: 350px;
+  max-width: 400px;
   background: #fff;
   border-radius: 15px;
   box-shadow: 0 30px 20px #c4d0f6;
@@ -67,7 +67,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     margin: 20px;
-    background-color: var(--pale-blue);
+    background-color: var(--pry-pale-blue);
     border-radius: 10px;
 }
 
@@ -88,12 +88,11 @@ span {
 .pro-btn {
   font-family: "Red Hat Display"; 
   font-size: 12px;
-  background: var(--bright-blue);
+  background: var(--pry-bright-blue);
   border-radius: 10px;
   box-shadow: 0 30px 20px #c4d0f6;
   color: #FFFFFF;
   padding: 10px 10px 10px;
-  margin: 2px 30px 20px;
   width: 100%;
   cursor: pointer;
 }
@@ -106,7 +105,7 @@ span {
   text-align: center;
   width: 100%;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-top: 15px;
 }
 
 
@@ -119,7 +118,4 @@ span {
     height: auto;
   }
 
-  main {
-    margin: 50px 25px 0 25px;
-  }
 }
